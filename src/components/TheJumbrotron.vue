@@ -53,6 +53,11 @@ export default {
     .jumbotron {
         padding-top: 8rem;
         padding-bottom: 4rem;
+
+        img {
+            margin-top: 50px;
+        }
+
         .tag {
             border: none;
             border-radius: 50px;
@@ -64,13 +69,16 @@ export default {
             margin-bottom: 1rem;
             padding: .1rem .2rem;
         }
+
         h1 {
             font-weight: bold;
             line-height: 60px;
         }
+
         p {
             color: $font-gray;
             font-size: .9rem;
         }
+
     }
     </style>
