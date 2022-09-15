@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+
+    <button class="settings-btn"><i class="fa-solid fa-gear"></i></button>
+
     <TheHeader />
     <SponsorLinks />
     <TheMain />
@@ -22,10 +25,31 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../src/style/index.scss";
 @import "../src/style/main.scss";
 @import "../src/style/variables.scss";
 
+#app {
+  position: relative;
 
+  .settings-btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    background-color: white;
+    border: 1px solid $btn-grey;
+    border-radius: 0 50px 50px 0;
+    color: $secondary;
+    font-size: 1rem;
+
+      i {
+        padding: .5rem;
+      }
+  }
+}
 
 
 </style>

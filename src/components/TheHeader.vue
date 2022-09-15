@@ -30,7 +30,7 @@
               </div>
           </div>
 
-          <!--JUMBOTRON PRESENTAZIONE PAGINA-->
+          <!--JUMBOTRON -->
           <TheJumbrotron></TheJumbrotron> 
 
       </header>
