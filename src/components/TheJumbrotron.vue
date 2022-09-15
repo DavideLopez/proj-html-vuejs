@@ -50,31 +50,27 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 @import "../style/buttons.scss";
-
-.jumbotron {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-
-    .tag {
-        border: none;
-        border-radius: 50px;
-        background-color: $btn-grey;
-        border: 1px solid $btn-grey;
-        color: $secondary;
-        font-size: .6rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-        padding: .1rem .2rem;
+    .jumbotron {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+        .tag {
+            border: none;
+            border-radius: 50px;
+            background-color: $btn-grey;
+            border: 1px solid $btn-grey;
+            color: $secondary;
+            font-size: .6rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            padding: .1rem .2rem;
+        }
+        h1 {
+            font-weight: bold;
+            line-height: 60px;
+        }
+        p {
+            color: $font-gray;
+            font-size: .9rem;
+        }
     }
-
-    h1 {
-        font-weight: bold;
-        line-height: 60px;
-    }
-
-    p {
-        color: $font-gray;
-        font-size: .9rem;
-    }
-}
-</style>
+    </style>

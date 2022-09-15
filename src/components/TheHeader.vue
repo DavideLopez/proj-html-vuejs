@@ -86,67 +86,54 @@ export default {
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 @import "../style/buttons.scss";
-
-
-
-header {
-  background-color: $primary;
-
-  .navigation-bar {
-      background-color: $primary;
-      position: fixed;
-      padding: 5rem 0;
-      width: 100%;
-      z-index: 1;
+  header {
+    background-color: $primary;
+    .navigation-bar {
+        background-color: $primary;
+        position: fixed;
+        padding: 5rem 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .page-logo img {
+        height: 20px;
+    }
+    .page-navlink {
+        text-transform: uppercase;
+        font-size: .7rem;
+        a {
+            font-weight: bold;
+            color: $font-darkgray;
+            text-decoration: none;
+            padding: 1.5rem;
+            &:focus {
+                color: $secondary;
+        }
+        }
+    }
+    .page-features {
+        .fa-magnifying-glass {
+            color: $font-gray;
+            font-size: .9rem;
+            margin-right: .5rem;
+        }
+        button {
+            width: 30px;
+            margin: .2rem;
+            box-shadow: 0px 2px 5px #c5d0f2;
+            i {
+                display: block;
+                color: $secondary;
+                font-size: .8rem;
+                padding: .4rem .1rem;
+            }
+            &:hover {
+                background-color: $secondary;
+                i {
+                  color: white;
+                }
+            }
+        }
+    }
   }
-
-  .page-logo img {
-      height: 20px;
-  }
-
-  .page-navlink {
-      text-transform: uppercase;
-      font-size: .7rem;
-
-      a {
-          font-weight: bold;
-          color: $font-darkgray;
-          text-decoration: none;
-          padding: 1.5rem;
-
-          &:focus {
-              color: $secondary;
-      }
-      }
-  }
-
-  .page-features {
-      .fa-magnifying-glass {
-          color: $font-gray;
-          font-size: .9rem;
-          margin-right: .5rem;
-      }
-
-      button {
-          width: 30px;
-          margin: .2rem;
-          box-shadow: 0px 2px 5px #c5d0f2;
-
-          i {
-              display: block;
-              color: $secondary;
-              font-size: .8rem;
-              padding: .4rem .1rem;
-          }
-
-          &:hover {
-              background-color: $secondary;
-
-              i {
-                color: white;
-              }
-          }
-      }
-  }
-}
-</style>
+  </style>
