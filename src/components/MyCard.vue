@@ -49,16 +49,16 @@ export default {
     box-shadow: 0px 0px 1px 1px $light-border;
     padding: 1rem;
     position: relative;
-    font-size: .8rem;
+    font-size: 14px;
     color: $font-gray;
-    transition: border-bottom .5s, transform .5s, box-shadow .5s;
+    transition: border-bottom 1s, transform 1s, box-shadow 1s;
 
     .plan-nametag {
         background-color: $btn-grey;
-        font-size: .8rem;
+        font-size: 1rem;
         color: $secondary;
         font-weight: bold;
-        padding: .4rem 1rem;
+        padding: 5px 15px;
         border-radius: 25px;
         border: 1px solid $btn-grey;
         display: inline-block;
@@ -66,7 +66,7 @@ export default {
 
     li i {
         color: $secondary;
-        margin-right: .2rem;
+        margin-right: 5px;
     }
 
     button {
@@ -98,7 +98,7 @@ export default {
     .ribbon {
         background-color: $orange;
         color: white;
-        font-size: .7rem;
+        font-size: 14px;
         font-weight: bold;
         line-height: 15px;
         text-align: center;

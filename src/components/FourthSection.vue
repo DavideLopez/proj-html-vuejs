@@ -39,8 +39,8 @@ export default {
 
 p {
     color: $font-gray;
-    font-size: .8rem;
-    padding-bottom: 2rem;
+    font-size: 14px;
+    padding-bottom: 30px;
 
     span {
         color: $secondary;

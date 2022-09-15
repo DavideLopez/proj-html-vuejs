@@ -25,4 +25,37 @@
 @import "../style/variables.scss";
 @import "../style/buttons.scss";
 
+p {
+    color: $font-gray;
+    font-size: 14px;
+    padding-bottom: 15px;
+
+    span {
+        color: $secondary;
+    }
+}
+
+.my-input {
+    position: relative;
+    margin-bottom: 2.5rem;
+
+    input {
+        border-radius: 25px;
+        font-size: 14px;
+        color: $font-gray;
+        border: 1px solid $light-border;
+        padding: 10px 25px;
+        width: 100%;
+    }
+
+    button {
+        position: absolute;
+        right: 5px;
+        top: 4px;
+        bottom: 4px;
+        border-radius: 25px;
+        margin-right: 0;
+    }
+}
+
 </style>

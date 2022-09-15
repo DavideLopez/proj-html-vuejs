@@ -59,12 +59,12 @@ export default {
 
 
 .container {
-    font-size: .8rem;
+    font-size: 14px;
     color: $font-gray;
 
         & > p {
             width: 50%;
-            padding-bottom: 2rem;
+            padding-bottom: 30px;
 
             span {
                 color: $secondary;
@@ -99,7 +99,7 @@ export default {
             a {
                 text-decoration: none;
                 color: $secondary;
-                font-size: .8rem;
+                font-size: 14px;
                 font-weight: bold;
 
                 & > i {
@@ -130,7 +130,7 @@ export default {
         }
 
         &:hover .bg-icon {
-            opacity: .5;
+            opacity: 1;
         }
     }
 }

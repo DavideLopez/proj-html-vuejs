@@ -6,6 +6,7 @@
     <TheHeader />
     <SponsorLinks />
     <TheMain />
+    <TheFooter />
   </div>
 </template>
 
@@ -13,13 +14,15 @@
 import TheHeader from './components/TheHeader.vue';
 import SponsorLinks from './components/SponsorLinks.vue'
 import TheMain from './components/TheMain.vue';
+import TheFooter from './components/TheFooter.vue';
 
 export default {
   name: 'App',
   components: {
     TheHeader,
     SponsorLinks,
-    TheMain
+    TheMain,
+    TheFooter,
 }
 }
 </script>
@@ -43,10 +46,10 @@ export default {
     border: 1px solid $btn-grey;
     border-radius: 0 50px 50px 0;
     color: $secondary;
-    font-size: 1rem;
+    font-size: 16px;
 
       i {
-        padding: .5rem;
+        padding: 10px;
       }
   }
 }

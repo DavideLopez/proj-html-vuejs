@@ -51,8 +51,8 @@ export default {
 @import "../style/variables.scss";
 @import "../style/buttons.scss";
     .jumbotron {
-        padding-top: 8rem;
-        padding-bottom: 4rem;
+        padding-top: 150px;
+        padding-bottom: 60px;
 
         img {
             margin-top: 50px;
@@ -64,10 +64,10 @@ export default {
             background-color: $btn-grey;
             border: 1px solid $btn-grey;
             color: $secondary;
-            font-size: .6rem;
+            font-size: 10px;
             font-weight: bold;
-            margin-bottom: 1rem;
-            padding: .1rem .2rem;
+            margin-bottom: 15px;
+            padding: 2px 4px;
         }
 
         h1 {
@@ -77,7 +77,7 @@ export default {
 
         p {
             color: $font-gray;
-            font-size: .9rem;
+            font-size: 1rem;
         }
 
     }

@@ -77,7 +77,7 @@ export default {
 }
 
 .quickstart, p {
-    font-size: .8rem;
+    font-size: 14px;
 }
 
 p {
@@ -87,13 +87,13 @@ p {
 
 .code-table {
     background-color: $slate-gray;
-    padding: .5rem;
+    padding: 10px;
     border-radius: 5px;
 
     .code-navbar {
         background-color: #4f5a69;
         border-radius: 5px;
-        margin: .5rem;
+        margin: 10px;
         text-align: center;
         display: flex;
 
@@ -107,21 +107,21 @@ p {
                 color: white;
                 text-decoration: none;
                 font-weight: bold;
-                padding: .2rem 2.5rem;
+                padding: 5px 40px;
                 display: block;
                 border-radius: 5px;
-                border: .5px solid #4f5a69;
+                border: 1px solid #4f5a69;
             }
         }
     }
 
     .active {
         background-color: $slate-gray;
-        border: .5px solid #576272;
+        border: 1px solid #576272;
     }
 
     .code-content {
-        padding: .5rem;
+        padding: 10px;
         font-weight: bold;
 
         & > div > p > span {
@@ -136,7 +136,7 @@ p {
 
 .fa-circle-check {
     color: $acid-green;
-    margin-right: .3rem;
+    margin-right: 5px;
 }
 
 </style>

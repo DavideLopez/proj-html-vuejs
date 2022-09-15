@@ -52,11 +52,11 @@ export default {
 
 p, ul li {
     color: $font-gray;
-    font-size: .8rem;
+    font-size: 14px;
 
     i {
         color: $secondary;
-        margin-right: .2rem;
+        margin-right: 5px;
     }
 }
 </style>
