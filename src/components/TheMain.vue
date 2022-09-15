@@ -1,6 +1,6 @@
 <template>
     <div>
-        <FirstSection></FirstSection>
+        <FirstSection />
         
 
     </div>
