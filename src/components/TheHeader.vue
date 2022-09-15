@@ -15,14 +15,14 @@
                       <div class="page-navlink">
                           <ul class="list-unstyled m-0 d-flex">
                               <li v-for="(link, i) in navLinks" :key="i">
-                                  <a href="javascript:void(0)">{{ link.name }} <i :class="link.icon" class="ms-1"></i></a>
+                                  <a href="#">{{ link.name }} <i :class="link.icon" class="ms-1"></i></a>
                               </li>
                           </ul>
                       </div>
 
                       <!--FEATURES-->
                       <div class="page-features">
-                          <a href="javascript:void(0)"><i class="fa-solid fa-magnifying-glass"></i></a>
+                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                           <button v-for="btn in features" :key="btn.name" class="square-btn">
                               <i :class="btn.icon"></i>
                           </button>
