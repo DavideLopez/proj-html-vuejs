@@ -57,7 +57,7 @@ export default {
     border-radius: 0 0 30% 30%;
 
     img {
-        height: 20px;
+        height: 25px;
     }
 }
 
