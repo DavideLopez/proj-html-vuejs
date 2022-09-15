@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <MainNav />
+    <TheHeader />
   </div>
 </template>
 
 <script>
-import MainNav from './components/MainNav.vue';
+import TheHeader from './components/TheHeader.vue';
 
 export default {
   name: 'App',
   components: {
-    MainNav,
+    TheHeader,
 }
 }
 </script>
 
 <style lang="scss">
-  @import '../src/style/index.scss'
+@import "../src/style/main.scss";
+@import "../src/style/variables.scss";
+
+
+
 
 </style>
