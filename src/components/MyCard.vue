@@ -57,7 +57,7 @@ export default {
         background-color: $btn-grey;
         font-size: 1rem;
         color: $secondary;
-        font-weight: bold;
+        font-weight: 600;
         padding: 5px 15px;
         border-radius: 25px;
         border: 1px solid $btn-grey;
@@ -73,6 +73,7 @@ export default {
         margin: 0;
         display: block;
         width: 100%;
+        
 
         // &:hover {
         //     cursor: pointer;

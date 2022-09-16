@@ -59,4 +59,8 @@ p, ul li {
         margin-right: 5px;
     }
 }
+
+.fa-circle-check{
+    color: $secondary;
+}
 </style>

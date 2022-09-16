@@ -6,7 +6,7 @@
 
                 <!--CONTENUTO TESTUALE-->
                 <div class="col" v-for="(content, i) in textContainer" :key="i">
-                    <span class="tag">{{ content.tag }}</span>
+                    <span class="tag mb-3">{{ content.tag }}</span>
 
                     <h1>{{ content.title }}</h1>
                     <p class="pb-2">{{ content.paragraph }}</p>
@@ -54,24 +54,21 @@ export default {
         padding-top: 150px;
         padding-bottom: 60px;
 
-        img {
-            margin-top: 50px;
-        }
-
         .tag {
+            
             border: none;
             border-radius: 50px;
             background-color: $btn-grey;
             border: 1px solid $btn-grey;
             color: $secondary;
-            font-size: 10px;
+            font-size: 11px;
             font-weight: bold;
-            margin-bottom: 15px;
             padding: 2px 4px;
         }
 
         h1 {
-            font-weight: bold;
+            font-weight: 650;
+            font-size: 62px;
             line-height: 60px;
         }
 
