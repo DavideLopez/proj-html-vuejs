@@ -9,7 +9,7 @@
                         <img src="img/logo-light.png" alt="logo landrick">
                         <p class="pb-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
                         <div class="social-container">
-                            <button class="square-btn" v-for="(social, i) in social" :key="i"><i :class="social.icon"></i></button>
+                            <button class="square-btn" v-for="(social, i) in social" :key="i"><font-awesome-icon :class="social.icon"></font-awesome-icon></button>
                         </div>
                     </div>
 
@@ -130,7 +130,7 @@ export default {
                 background-color: lighten($color: $quaternary, $amount: 20);
             }
 
-            i {
+            font-awesome-icon {
                 color: $font-lightgray;
                 font-size: 12px;
             }

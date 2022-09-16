@@ -125,11 +125,6 @@ export default {
             margin-right: 8px;
         }
 
-         .fa-github {
-            font-size: 18px;
-            color: black;
-         }   
-
         button {
             width: 30px;
             margin: 5px;

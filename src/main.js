@@ -10,15 +10,19 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faAngleDown, faChevronRight, faHeart, faMagnifyingGlass,faLayerGroup, faDisplay, faArrowsToEye, faMaximize, faGear, faArrowUp, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faCircleCheck, faCopyright, faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
-import { faFacebook, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
 /* add icons to the library */
-library.add(faMagnifyingGlass,
+library.add(
+  faMagnifyingGlass,
   faUser,
   faGithub,
+  faAngleDown,
+  faUser,
   faStackOverflow,
-  faHeart,faCopyright,
+  faHeart,
+  faCopyright,
   faAngleDown,
   faChevronRight, 
   faLayerGroup, 
@@ -30,7 +34,10 @@ library.add(faMagnifyingGlass,
   faCircleCheck, 
   faGear,
   faArrowUp,
-  faEnvelope)
+  faEnvelope,
+  faFacebook,
+  faTwitter,
+  faInstagram,)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
