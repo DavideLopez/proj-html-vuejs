@@ -118,6 +118,8 @@ export default {
             height: 20px;
             margin-bottom: 25px;
         }
+        
+        
 
         .square-btn {
             background-color: $quaternary;
@@ -128,6 +130,8 @@ export default {
 
             &:hover {
                 background-color: lighten($color: $quaternary, $amount: 20);
+                transform:  rotate(45deg);
+                // transition: transform 1s;
             }
 
             font-awesome-icon {
