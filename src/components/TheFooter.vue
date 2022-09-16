@@ -55,7 +55,7 @@
         <LowFooter />
         
         <!--BOTTONE CHE SCROLLA IN CIMA ALLA PAGINA-->
-        <!-- <button class="scroll-btn square-btn" @click="toTheTop()"><i class="fa-solid fa-arrow-up"></i></button> -->
+        <button class="scroll-btn square-btn" @click="toTheTop()"><font-awesome-icon icon="fa-solid fa-arrow-up"></font-awesome-icon></button>
     </div>
 </template>
 
@@ -137,7 +137,7 @@ export default {
             }
         }
 
-        //LINKS SECTION - II, III COL
+        //LINKS SECTION 
         li {
             padding-top: 8px;
 
@@ -153,7 +153,7 @@ export default {
             }
         }
         
-        //NEWSLETTER SECTION - IV COL
+        //NEWSLETTER SECTION 
         .asterisk-sign {
             color: $reddish;
         }

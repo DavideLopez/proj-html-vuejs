@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <button class="settings-btn"><i class="fa-solid fa-gear"></i></button>
+    <button class="settings-btn"><font-awesome-icon icon="fa-solid fa-gear"></font-awesome-icon></button>
 
     <TheHeader />
     <SponsorLinks />
@@ -37,7 +37,7 @@ export default {
 
   .settings-btn {
     margin: 0;
-    padding: 0;
+    padding: 6px;
     border: none;
     position: fixed;
     left: 0;
@@ -46,7 +46,7 @@ export default {
     border: 1px solid $btn-grey;
     border-radius: 0 50px 50px 0;
     color: $secondary;
-    font-size: 16px;
+    font-size: 20px;
 
       i {
         padding: 10px;
