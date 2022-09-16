@@ -8,13 +8,29 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faAngleDown, faChevronRight, faHeart, faMagnifyingGlass,faLayerGroup, faDisplay, faArrowsToEye, faMaximize, faGear, faArrowUp } from '@fortawesome/free-solid-svg-icons'
-import { faCircleCheck, faCopyright, faUser } from '@fortawesome/free-regular-svg-icons'
+import { faAngleDown, faChevronRight, faHeart, faMagnifyingGlass,faLayerGroup, faDisplay, faArrowsToEye, faMaximize, faGear, faArrowUp, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faCircleCheck, faCopyright, faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
 import { faFacebook, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 
 
 /* add icons to the library */
-library.add(faMagnifyingGlass,faUser,faGithub,faStackOverflow,faHeart,faCopyright,faAngleDown,faChevronRight, faLayerGroup, faDisplay, faArrowsToEye, faMaximize, faFacebook,faCircleCheck,faGear,faArrowUp)
+library.add(faMagnifyingGlass,
+  faUser,
+  faGithub,
+  faStackOverflow,
+  faHeart,faCopyright,
+  faAngleDown,
+  faChevronRight, 
+  faLayerGroup, 
+  faDisplay, 
+  faArrowsToEye, 
+  faArrowRight,
+  faMaximize, 
+  faFacebook,
+  faCircleCheck, 
+  faGear,
+  faArrowUp,
+  faEnvelope)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)

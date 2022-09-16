@@ -8,11 +8,11 @@
                     <p>You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                     <ul class="list-unstyled">
                         <li class="pb-1" v-for="(pro, i) in advantages" :key="i">
-                            <i class="fa-regular fa-circle-check"></i> {{ pro.text }}
+                            <font-awesome-icon icon="fa-regular fa-circle-check"></font-awesome-icon> {{ pro.text }}
                         </li>
                     </ul>
 
-                    <button class="my-btn blue-button">Read More <i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="my-btn blue-button">Read More <font-awesome-icon icon="fa-solid fa-arrow-right"></font-awesome-icon></button>
                 </div>
             </div>
 

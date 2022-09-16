@@ -20,7 +20,7 @@
                                 <h6 class="fw-bold text-white pb-2">Company</h6>
                                 <ul class="list-unstyled m-0">
                                     <li v-for="(link, i) in companyLinks" :key="i">
-                                    <i class="fa-solid fa-chevron-right"></i><a href="javascript:void(0)"> {{ link }}</a></li>
+                                    <font-awesome-icon icon="fa-solid fa-chevron-right"></font-awesome-icon><a href="#"> {{ link }}</a></li>
                                 </ul>
                             </div>
 
@@ -28,7 +28,7 @@
                                 <h6 class="fw-bold text-white pb-2">Useful Links</h6>
                                 <ul class="list-unstyled m-0">
                                     <li v-for="(link, i) in usefulLinks" :key="i">
-                                    <i class="fa-solid fa-chevron-right"></i><a href="javascript:void(0)"> {{ link }}</a></li>
+                                    <font-awesome-icon icon="fa-solid fa-chevron-right"></font-awesome-icon><a href="#"> {{ link }}</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -42,8 +42,7 @@
 
                         <div class="form-floating">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput"><i class="fa-regular fa-envelope me-2"></i> Your email:</label>
-                            
+                            <label for="floatingInput"><font-awesome-icon icon="fa-regular fa-envelope me-2"></font-awesome-icon> Your email:</label>
                             <button class="sub-btn">Subscribe</button>
                         </div>
                     </div>
