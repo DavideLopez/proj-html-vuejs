@@ -37,7 +37,7 @@ p {
 
 .my-input {
     position: relative;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
 
     input {
         border-radius: 25px;

@@ -102,17 +102,22 @@ export default {
     }
     .page-navlink {
         text-transform: uppercase;
-        font-size: .7rem;
+        font-size: 14px;
+
         a {
             font-weight: bold;
             color: $font-darkgray;
             text-decoration: none;
             padding: 1.5rem;
             &:focus {
-                color: $secondary;
-        }
+                color: $secondary;                
+            }
+            &:hover {
+                    color: #007bFF;
+            }
         }
     }
+    
     .page-features {
         .fa-magnifying-glass {
             color: $font-gray;
@@ -127,7 +132,7 @@ export default {
 
         button {
             width: 30px;
-            margin: .2rem;
+            margin: 5px;
             box-shadow: 0px 2px 5px #c5d0f2;
             i {
                 display: block;

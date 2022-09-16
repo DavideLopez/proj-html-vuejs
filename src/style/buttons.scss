@@ -3,9 +3,9 @@
 .my-btn {
     border: none;
     border-radius: 5px;
-    font-size: .8rem;
+    font-size: 14px;
     font-weight: bold;
-    padding: .4rem .8rem;
+    padding: 6px 14px;
     background-color: transparent;
     margin-right: 10px;
 }
@@ -33,9 +33,9 @@
 .square-btn {
     border: none;
     border-radius: 5px;
-    font-size: .8rem;
+    font-size: 14px;
     background-color: $btn-grey;
     aspect-ratio: 1/1;
-    margin: .2rem;
+    margin: 5px;
     border: 1px solid $btn-grey;
 }

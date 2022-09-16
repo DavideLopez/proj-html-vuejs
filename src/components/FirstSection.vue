@@ -103,7 +103,7 @@ export default {
                 font-weight: bold;
 
                 & > i {
-                    font-size: .5rem;
+                    font-size: 8px;
                 }
 
             &:hover {

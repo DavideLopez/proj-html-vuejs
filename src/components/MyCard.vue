@@ -47,7 +47,7 @@ export default {
     border-bottom: 3px solid $font-lightgray;
     border-radius: 10px;
     box-shadow: 0px 0px 1px 1px $light-border;
-    padding: 1rem;
+    padding: 15px;
     position: relative;
     font-size: 14px;
     color: $font-gray;

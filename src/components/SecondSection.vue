@@ -42,8 +42,8 @@
         </div>
 
         <div class="d-flex pt-3">
-            <p class="pe-4"><i class="fa-regular fa-circle-check"></i> Organize your data</p>
-            <p><i class="fa-regular fa-circle-check"></i> Work with any team</p>
+            <p class="pe-4"><font-awesome-icon icon="fa-regular fa-circle-check"></font-awesome-icon> Organize your data</p>
+            <p><font-awesome-icon icon="fa-regular fa-circle-check"></font-awesome-icon> Work with any team</p>
         </div>
     </div>
 </div>
@@ -73,6 +73,8 @@ export default {
 @import "../style/variables.scss";
 
 .quickstart, p > span {
+    margin-bottom: 20px;
+    font-weight: bold;
     color: $secondary;
 }
 
