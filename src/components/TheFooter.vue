@@ -131,8 +131,12 @@ export default {
 
             &:hover {
                 background-color: lighten($color: $quaternary, $amount: 20);
-                // transform:  rotate(45deg);
-                // // transition: transform 1s;
+                
+            }
+
+            .scroll-btn:hover {
+                transform:  rotate(45deg);
+                transition: transform 1s;
             }
 
             font-awesome-icon {

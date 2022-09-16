@@ -129,6 +129,7 @@ export default {
             width: 30px;
             margin: 5px;
             box-shadow: 0px 2px 5px #c5d0f2;
+            color: $tertiary;
 
             .font-awesome-icon {
                 display: block;

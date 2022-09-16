@@ -10,7 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faAngleDown, faChevronRight, faHeart, faMagnifyingGlass,faLayerGroup, faDisplay, faArrowsToEye, faMaximize, faGear, faArrowUp, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faCircleCheck, faCopyright, faEnvelope, faUser } from '@fortawesome/free-regular-svg-icons'
-import { faFacebook, faGithub, faInstagram, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram, faStackOverflow, faTwitter,faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 
 /* add icons to the library */
@@ -37,7 +37,8 @@ library.add(
   faEnvelope,
   faFacebook,
   faTwitter,
-  faInstagram,)
+  faInstagram,
+  faLinkedinIn,)
 
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
