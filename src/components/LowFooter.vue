@@ -59,6 +59,8 @@ export default {
         color: $font-lightgray;
         font-size: 14px;
 
+        
+
         .fa-heart {
             color: $reddish;
         }

@@ -7,7 +7,7 @@
             <div class="col" v-for="(card, i) in keyFeatures" :key="i">
 
                 <div class="my-card">
-                    <div class="square-btn"><i class="fa-solid" :class="card.icon"></i></div>
+                    <div class="square-btn"><font-awesome-icon class="fa-solid" :icon="card.icon"></font-awesome-icon></div>
                     <h6 class="fw-bold text-black pt-3">{{ card.title }}</h6>
                     <p class="w-100">{{ card.content }}</p>
                     <a href="#">Read More <font-awesome-icon icon="fa-chevron-right"></font-awesome-icon></a>
@@ -87,6 +87,7 @@ export default {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                color: $secondary;
 
                 i {
                     font-size: 1rem;

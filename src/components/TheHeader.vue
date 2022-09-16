@@ -14,7 +14,7 @@
                       <div class="page-navlink">
                           <ul class="list-unstyled m-0 d-flex">
                               <li v-for="(link, i) in navLinks" :key="i">
-                                  <a href="#">{{ link.name }} <i :class="link.icon" class="ms-1"></i></a>
+                                  <a href="#">{{ link.name }} <font-awesome-icon :icon="link.icon" class="ms-1"></font-awesome-icon></a>
                               </li>
                           </ul>
                       </div>
@@ -23,7 +23,7 @@
                       <div class="page-features">
                           <a href="#"><font-awesome-icon icon="fa-magnifying-glass"></font-awesome-icon></a>
                           <button v-for="btn in features" :key="btn.name" class="square-btn">
-                              <i :class="btn.icon"></i>
+                              <font-awesome-icon :icon="btn.icon"></font-awesome-icon>
                           </button>
                       </div>
                   </div>
@@ -129,7 +129,8 @@ export default {
             width: 30px;
             margin: 5px;
             box-shadow: 0px 2px 5px #c5d0f2;
-            i {
+
+            .font-awesome-icon {
                 display: block;
                 color: $secondary;
                 font-size: 14px;
