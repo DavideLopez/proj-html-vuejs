@@ -3,7 +3,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <div class="copyright">
-                <i class="fa-regular fa-copyright"></i> 2020 Landrick. Design with <i class="fa-solid fa-heart"></i> by Shreethemes.
+                <font-awesome-icon icon="fa-regular fa-copyright"></font-awesome-icon> 2020 Landrick. Design with <font-awesome-icon icon="fa-solid fa-heart"></font-awesome-icon> by Shreethemes.
             </div>
 
             <div class="payments">

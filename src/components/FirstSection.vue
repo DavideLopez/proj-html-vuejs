@@ -10,7 +10,7 @@
                     <div class="square-btn"><i class="fa-solid" :class="card.icon"></i></div>
                     <h6 class="fw-bold text-black pt-3">{{ card.title }}</h6>
                     <p class="w-100">{{ card.content }}</p>
-                    <a href="#">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Read More <font-awesome-icon icon="fa-chevron-right"></font-awesome-icon></a>
 
                     <i class="fa-solid bg-icon" :class="card.icon"></i>
                 </div>

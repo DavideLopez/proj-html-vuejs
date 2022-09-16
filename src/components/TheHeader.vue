@@ -21,7 +21,7 @@
 
                       <!--FEATURES-->
                       <div class="page-features">
-                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                          <a href="#"><font-awesome-icon icon="fa-magnifying-glass"></font-awesome-icon></a>
                           <button v-for="btn in features" :key="btn.name" class="square-btn">
                               <i :class="btn.icon"></i>
                           </button>
@@ -31,7 +31,7 @@
           </div>
 
           <!--JUMBOTRON -->
-          <TheJumbrotron></TheJumbrotron> 
+          <TheJumbrotron />
 
       </header>
   </div>
@@ -79,19 +79,21 @@ export default {
           ],
       };
   },
-  components: { TheJumbrotron }
+  components: { TheJumbrotron,}
 }
 </script>
 
 <style lang="scss" scoped>
 @import "../style/variables.scss";
 @import "../style/buttons.scss";
+@import "../style/index.scss";
+
   header {
     background-color: $primary;
     .navigation-bar {
         background-color: $primary;
         position: fixed;
-        padding: 5rem 0;
+        padding: 30px 0;
         width: 100%;
         z-index: 1;
     }
@@ -114,9 +116,15 @@ export default {
     .page-features {
         .fa-magnifying-glass {
             color: $font-gray;
-            font-size: .9rem;
-            margin-right: .5rem;
+            font-size: 18px;
+            margin-right: 8px;
         }
+
+         .fa-github {
+            font-size: 18px;
+            color: black;
+         }   
+
         button {
             width: 30px;
             margin: .2rem;
@@ -124,8 +132,8 @@ export default {
             i {
                 display: block;
                 color: $secondary;
-                font-size: .8rem;
-                padding: .4rem .1rem;
+                font-size: 14px;
+                padding: 8px 2px;
             }
             &:hover {
                 background-color: $secondary;

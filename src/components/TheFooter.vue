@@ -71,7 +71,7 @@ export default {
             social: [
                 {
                     name: "Facebook",
-                    icon: "fa-brands fa-facebook-f",
+                    icon: "fa-brands fa-facebook",
                 },
                 {
                     name: "Instagram",
